@@ -1,0 +1,19 @@
+{
+  "openapi": "3.1.0",
+  "info": {
+    "title": "Moneybird",
+    "version": "1.0.0"
+  },
+  "servers": [
+    {
+      "url": "https://moneybird.com/api/v2/"
+    }
+  ],
+  "paths": {
+    "/administrations": {
+      "get": {
+        "description": "Administration"
+      }
+    }
+  }
+}
